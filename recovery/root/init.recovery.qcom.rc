@@ -1,5 +1,4 @@
 on boot
-	insmod /sbin/texfat.ko
     start restore
 
 service restore /sbin/sh /init.restore.sh
